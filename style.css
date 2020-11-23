@@ -1,0 +1,70 @@
+body{
+    background: rgba(238, 237, 237, 0.932);
+    margin: 0;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    flex: 1 1 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+.banner{
+    background: white;
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.instagram{
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+.box{
+    height: 100px;
+    flex: 0 0 600px;
+    border-bottom: 50px solid rgba(238, 237, 237, 0.932);
+}
+.one{
+    background: white;
+}
+.two{
+    background: white;
+}
+.three{
+    background: white;
+}
+.four{
+    background: white;
+}
+img{
+    width: 660px;
+    height: 450px;
+    object-fit: cover;
+}
+p{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.right{
+    color: grey;
+}
+.left{
+    font-weight: bold;
+}
